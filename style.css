@@ -1,0 +1,95 @@
+.wrap{
+  width: 1440px; 
+  min-height: 800px; 
+  margin: 0 auto;
+}
+.menu{
+  height: 66px;
+  width: 100%;
+  border-bottom: 2px solid silver;
+  box-sizing: border-box;
+  display: flex;
+}
+.menu-left{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-left a {
+  display: block;
+  margin-right: 30px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.menu-left a:hover{
+  font-weight: 700;
+}
+.menu-right{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-right i{
+  display: block;
+  margin-right: 30px;
+  font-size: 18px;
+  color: #c4c4c4;
+}
+.menu-right i:hover{
+  color: #30abae;
+  transition: 300ms;
+}
+#carouselExampleCaptions h5{
+  font-size: 72px;
+  color: black;
+}
+.carousel-item{
+  width: 1440px;
+  height: 671px;
+}
+.carousel-caption{
+  bottom: 130px;
+}
+#carouselExampleCaptions > div.carousel-indicators > button{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.main-content{
+  margin-bottom: 60px;
+}
+.main-content h2{
+  text-align: center;
+  margin: 40px 0;
+}
+.places{
+  display: flex;
+  justify-content: space-evenly;
+}
+.place{
+  width: 342px;
+}
+.place h5{
+  margin-top: 16px;
+  margin-bottom: 32px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.place span{
+  padding-left: 25px;
+  color: #999;
+}
+.place p{
+  text-align: justify;
+  padding-left: 23px;
+  border-left: 2px solid #ED8651;
+}
+.footer{
+  height: 90px;
+  background: #16595A;
+}
